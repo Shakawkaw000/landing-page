@@ -6,6 +6,9 @@
 body {
     display: flex;
     flex-direction: column;
+    font-style: "OCR A Std", sans-serif, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 img {
@@ -15,9 +18,34 @@ img {
 
 ul {
     list-style: none;
+    display: flex;
+    gap: 15px;
 }
 
 .second-quarter img {
     width: 70px;
     height: 70px;
+}
+
+.header,
+.footer {
+    display: flex;
+    background-color: #1F2937;
+}
+
+#headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    flex-grow: 1;
+}
+
+#headerlinks {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer {
+    color: #E5E7EB;
+    flex-shrink: 1;
+    justify-content: center;
 }
