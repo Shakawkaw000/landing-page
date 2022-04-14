@@ -1,0 +1,23 @@
+* {
+    border: 1px solid red;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 120px;
+    height: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+.second-quarter img {
+    width: 70px;
+    height: 70px;
+}
